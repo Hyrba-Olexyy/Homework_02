@@ -1,0 +1,44 @@
+{
+    "name": "homework_02",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "NET:client": "node ./NET/client.js",
+        "NET:server": "node ./NET/server.js",
+        "UDP:client": "node ./UDP/client.js",
+        "UDP:server": "node ./UDP/server.js",
+        "HTTP:POST": "node ./HTTP/POST.js",
+        "HTTP:GET": "node ./HTTP/GET.js",
+        "HTTP:DELETE": "node ./HTTP/DELETE.js",
+        "HTTP:server": "node ./HTTP/server.js"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/Hyrba-Olexyy/Homework_02.git"
+    },
+    "author": "Oleksii Hyrba",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/Hyrba-Olexyy/Homework_02/issues"
+    },
+    "homepage": "https://github.com/Hyrba-Olexyy/Homework_02#readme",
+    "devDependencies": {
+        "commitizen": "4.2.4",
+        "eslint": "8.17.0",
+        "eslint-config-airbnb": "19.0.4",
+        "eslint-config-airbnb-base": "15.0.0",
+        "eslint-config-prettier": "8.5.0",
+        "eslint-plugin-import": "2.26.0",
+        "eslint-plugin-jsx-a11y": "6.5.1",
+        "eslint-plugin-node": "11.1.0",
+        "eslint-plugin-prettier": "4.0.0",
+        "eslint-plugin-react": "7.30.0",
+        "eslint-plugin-react-hooks": "4.6.0"
+    },
+    "config": {
+        "commitizen": {
+            "path": "./node_modules/cz-conventional-changelog"
+        }
+    }
+}
