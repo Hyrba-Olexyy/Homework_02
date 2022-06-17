@@ -3,11 +3,11 @@ const {
     handleGetReq,
     handleDeleteReq,
     handlePostReq,
+    handlePutReq,
 } = require('./functions');
 
 const port = '3010';
 
-// eslint-disable-next-line consistent-return
 const server = http.createServer((req, res) => {
     if (req.method === 'GET') {
         return handleGetReq(req, res);
@@ -17,6 +17,9 @@ const server = http.createServer((req, res) => {
     }
     if (req.method === 'POST') {
         return handlePostReq(req, res);
+    }
+    if (req.method === 'PUT') {
+        return handlePutReq(req, res);
     }
 });
 

@@ -9,6 +9,7 @@
         "UDP:client": "node ./UDP/client.js",
         "UDP:server": "node ./UDP/server.js",
         "HTTP:POST": "node ./HTTP/POST.js",
+        "HTTP:PUT": "node ./HTTP/PUT.js",
         "HTTP:GET": "node ./HTTP/GET.js",
         "HTTP:DELETE": "node ./HTTP/DELETE.js",
         "HTTP:server": "node ./HTTP/server.js"
